@@ -17,10 +17,10 @@
 
 // Songs
 var mySong = {
-	"title":"24K Magic",
-	"artist":"Bruno Mars",
-	"mp3-url":"https://open.spotify.com/track/6b8Be6ljOzmkOmFslEb23P",
-	"image-url":"https://images-na.ssl-images-amazon.com/images/I/71Gr9aCHQfL._SY355_.jpg",
+	title: "Beamer Boy",
+	artist: "Lil peep",
+	mp3_url:"https://open.spotify.com/track/6b8Be6ljOzmkOmFslEb23P",
+	image_url:"https://images-na.ssl-images-amazon.com/images/I/71Gr9aCHQfL._SY355_.jpg",
 }
 
 var myPlayList = [
@@ -52,11 +52,15 @@ $( document ).ready(function() {
   
 
 
+$('body').append("<p>My song: " + mySong.title + "</p>");
 
 });
 
 function displayList(){
+for(i = 0; i < myPlaylist.length; i++){
+	$('body').append("<p>My song: " + myPlaylist[i] + "</p>");
 
+}
 
   
 }
