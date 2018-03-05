@@ -72,7 +72,15 @@ function clearList(){
 }
 
 function addSong(){
- 
+ ("#songInput").val();
   
   
 }
+$("#add").click(function(){
+	 var titleInput =("#titleInput").val();
+	 var artistInput =("#artistInput").val();
+	 var linkInput =("#linkInput").val();
+	 var imageInput =("#imageInput").val();
+
+
+});
